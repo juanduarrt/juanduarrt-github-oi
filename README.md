@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -18,43 +19,27 @@
 
 
 <body>
-    <div class="btn">
-        <span class="fas fa-bars"></span>
-    </div>
+
     <span class="fas fa-bars"></span></div>
     <nav class="sidebar">
-        <div class="text">MENU</div>
+
         <ul>
 
             <li>
                 <a href="#" class="feat-btn">INICIO
                 <span class="fas fa-caret-down first"></span>
             </a>
-               
-                
-             
+                <ul class="feat-show">
+
+                    <li>
+                        <li><a href="servicios.html">HOGAR</a> </li>
+                        <li><a href="servicios.html">MOVILIDAD</a> </li>
+                    </li>
+                    <ul>
+
 
     </nav>
 
-    <script>
-        $('.btn').click(function() {
-            $(this).toggleClass("click")
-            $('.sidebar').toggleClass("show")
-        });
-        $('.feat-btn').click(function() {
-            $('nav ul .feat-show').toggleClass('show')
-            $('nav ul .first').toggleClass('rotate');
-        });
-    </script>
-    <script>
-        $('.serv-btn').click(function() {
-            $('nav ul .serv-show').toggleClass('show1')
-                ('nav ul .second').toggleClass('rotate')
-        });
-        $('nav ul li').click(function() {
-                    $(this).addClass("active").siblings().removeClass("active");
-                }
-    </script>
 
 
     <div class=" home-wrapper">
@@ -73,76 +58,49 @@
         <!--fin del logo y menu-->
         <!--seccion home-->
         <section class="container" id="home">
-            <h1> "Trasmitiendo vibraciones para el alma"</h1>
+            <h3> "Para que siempre estes conectado contacta BENY Asesor "</h3>
             <div class="divider"></div>
 
     </div>
-    <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/menu/
-            menu-min.js"></script>
+
     </header>
     <!--fin del logo y menu-->
     <!--seccion home-->
-    <section class="container" id="home">
 
-        <div class="divider"></div>
-    </section>
-    </div>
+
     <section class="container" id="home">
 
         <div class="divider"></div>
         <section class="container" id="servicios">
-            <h2>SERVICIOS </h2>
+            <h2>HOGAR </h2>
             <!--los servicios estarán divididos en tres columnas-->
             <!--primer servicio-->
 
             <!--fin del primer servicio-->
 
             <!--segundo servicio-->
-            <div class="box">
-                <h5>MARIACHI</h5>
-                <img src="imagenmono.jpg" width="100px">
 
-                <audio controls>
-        <source src="musica/monodis1.mp4" type="audio/mp4">
-            Tu navegador no soporta audio HTML5.
-    </audio>
 
-            </div>
+            <img src="images/publi tigo.jpg" width="190px">
+
+
+
             <!--fin segundo servicio-->
 
             <!--tercer servicio-->
-            <div class="box">
-                <h5>Bribraciones musicales </h5>
-                <img src="cruz.jpg" width="100px">
 
-
-                <audio controls>
-            <source src="monodis1.mp4.mp4" type="audio/mp4">
-                Tu navegador no soporta audio HTML5.
-        </audio>
-            </div>
-            <div class="box">
-                <h5>AMOR</h5>
-                <img src="lola.jpg" width="100px">
-
-                <audio controls>
-        <source src="musica/nubeviajera.mp4.mp4" type="audio/mp4">
-            Tu navegador no soporta audio HTML5.
-    </audio>
-
-
-            </div>
-            <div class="box">
-                <h5>Mostrando las vibraciones del yo soy</h5>
-                <img src="images/me estoy dando permisoo.jpg.jpg" width="100px">
-                <audio controls>
-        <source src="mono2.mp4.mp4" type="audio/mp4">
-            Tu navegador no soporta audio HTML5.
-    </audio>
+            <h2>MOVILIDAD</h2>
+            <img src="images/LOGOBENYBN.jpg" width="190px">
 
 
 
-            </div>
+
+
+
+
+
+
+
 
         </section>
 
@@ -155,7 +113,7 @@
         <i class="fa fa-whatsapp icono"></i>
     </a>
     <footer class="cover">
-        &copy;2022 <strong>YO SOY</strong>, Todos los derechos Reservados. Diseño por <a href="#">Juan David Duarte Castrillón</a>
+        &copy;2023 <strong>YO SOY</strong>, Todos los derechos Reservados. Diseño por <a href="#">Juan David Duarte Castrillón</a>
     </footer>
 </body>
 
