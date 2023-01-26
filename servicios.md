@@ -1,3 +1,5 @@
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -108,15 +110,73 @@
         <div class="divider"></div>
     </section>
     </div>
+    <section class="container" id="home">
+
+        <div class="divider"></div>
+        <section class="container" id="servicios">
+            <h2>SERVICIOS </h2>
+            <!--los servicios estarán divididos en tres columnas-->
+            <!--primer servicio-->
+
+            <!--fin del primer servicio-->
+
+            <!--segundo servicio-->
+            <div class="box">
+                <h5>MARIACHI</h5>
+                <img src="imagenmono.jpg" width="100px">
+
+                <audio controls>
+        <source src="musica/monodis1.mp4" type="audio/mp4">
+            Tu navegador no soporta audio HTML5.
+    </audio>
+
+            </div>
+            <!--fin segundo servicio-->
+
+            <!--tercer servicio-->
+            <div class="box">
+                <h5>Bribraciones musicales </h5>
+                <img src="cruz.jpg" width="100px">
+
+
+                <audio controls>
+            <source src="monodis1.mp4.mp4" type="audio/mp4">
+                Tu navegador no soporta audio HTML5.
+        </audio>
+            </div>
+            <div class="box">
+                <h5>AMOR</h5>
+                <img src="lola.jpg" width="100px">
+
+                <audio controls>
+        <source src="musica/nubeviajera.mp4.mp4" type="audio/mp4">
+            Tu navegador no soporta audio HTML5.
+    </audio>
+
+
+            </div>
+            <div class="box">
+                <h5>Mostrando las vibraciones del yo soy</h5>
+                <img src="images/me estoy dando permisoo.jpg.jpg" width="100px">
+                <audio controls>
+        <source src="mono2.mp4.mp4" type="audio/mp4">
+            Tu navegador no soporta audio HTML5.
+    </audio>
+
+
+
+            </div>
+
+        </section>
+
 
 
     </section>
     </div>
-    <div>
-        <a href="https://api.whatsapp.com/send?phone=573012578319" class="btn-wsp" target="_blank">
-            <i class="fa fa-whatsapp icono"></i>
-        </a>
-    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=573012578319" class="btn-wsp" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+    </a>
     <footer class="cover">
         &copy;2022 <strong>YO SOY</strong>, Todos los derechos Reservados. Diseño por <a href="#">Juan David Duarte Castrillón</a>
     </footer>
