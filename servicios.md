@@ -1,0 +1,126 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stileee/stylee.css">
+    <script src="https://kit.fontawesome.com/6f94f69e77.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </script>
+    <script type="text/javascript" src="magg.js">
+    </script>
+    <title>YO SOY</title>
+</head>
+
+
+<body>
+    <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div>
+    <span class="fas fa-bars"></span></div>
+    <nav class="sidebar">
+        <div class="text">MENU</div>
+        <ul>
+
+            <li>
+                <a href="#" class="feat-btn">INICIO
+                <span class="fas fa-caret-down first"></span>
+            </a>
+                <ul class="feat-show">
+                    <li><a href="servicios.html">servicios</a> </li>
+                    <li>
+                        <a href="eden.html">Eden</a>
+                    </li>
+                    <ul>
+                        <span class="fas fa-arrow.down"></span>
+                        <li><a href="#" class="serv-btn">servicios </a></li>
+                        <span class="fas fa-arrow.down"></span>
+                        <li><a href="#">App des</li>
+                        
+            <li>
+                <a href="#">Web Designs</a> </li>
+                    </ul>
+                    <li>
+                        <a href="quienessomos.html">Quiemes Somos</a> </a>
+                    </li>
+                    <li><a href="#">Overview</a> </li>
+                    <li><a href="#">portafoleo</a> </li>
+
+                </ul>
+                <ul>
+                    <span class="fas fa-caret-down first second"></span>
+                    <li><a href="#">listas</a></li>
+                </ul>
+                </div>
+
+    </nav>
+
+    <script>
+        $('.btn').click(function() {
+            $(this).toggleClass("click")
+            $('.sidebar').toggleClass("show")
+        });
+        $('.feat-btn').click(function() {
+            $('nav ul .feat-show').toggleClass('show')
+            $('nav ul .first').toggleClass('rotate');
+        });
+    </script>
+    <script>
+        $('.serv-btn').click(function() {
+            $('nav ul .serv-show').toggleClass('show1')
+                ('nav ul .second').toggleClass('rotate')
+        });
+        $('nav ul li').click(function() {
+                    $(this).addClass("active").siblings().removeClass("active");
+                }
+    </script>
+
+
+    <div class=" home-wrapper">
+        <header>
+            <div class="container">
+
+
+
+                <!--menu-->
+
+
+            </div>
+            <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/menu/
+            menu-min.js"></script>
+        </header>
+        <!--fin del logo y menu-->
+        <!--seccion home-->
+        <section class="container" id="home">
+            <h1> "Trasmitiendo vibraciones para el alma"</h1>
+            <div class="divider"></div>
+
+    </div>
+    <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/menu/
+            menu-min.js"></script>
+    </header>
+    <!--fin del logo y menu-->
+    <!--seccion home-->
+    <section class="container" id="home">
+
+        <div class="divider"></div>
+    </section>
+    </div>
+
+
+    </section>
+    </div>
+    <div>
+        <a href="https://api.whatsapp.com/send?phone=573012578319" class="btn-wsp" target="_blank">
+            <i class="fa fa-whatsapp icono"></i>
+        </a>
+    </div>
+    <footer class="cover">
+        &copy;2022 <strong>YO SOY</strong>, Todos los derechos Reservados. Diseño por <a href="#">Juan David Duarte Castrillón</a>
+    </footer>
+</body>
+
+
+</html>
