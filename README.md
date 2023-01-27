@@ -20,77 +20,33 @@
 
 <body>
 
-    <span class="fas fa-bars"></span></div>
-    <nav class="sidebar">
-
-        <ul>
-
-            <li>
-                <a href="#" class="feat-btn">INICIO
-                <span class="fas fa-caret-down first"></span>
-            </a>
-                <ul class="feat-show">
-
-                    <li>
-                        <li><a href="servicios.html">HOGAR</a> </li>
-                        <li><a href="servicios.html">MOVILIDAD</a> </li>
-                    </li>
-                    <ul>
-
-
-    </nav>
 
 
 
-    <div class=" home-wrapper">
-        <header>
-            <div class="container">
 
-
-
-                <!--menu-->
-
-
-            </div>
-            <script type="text/javascript" src="http://yui.yahooapis.com/2.3.0/build/menu/
-            menu-min.js"></script>
-        </header>
-        <!--fin del logo y menu-->
-        <!--seccion home-->
-        <section class="container" id="home">
-            <h3> "Para que siempre estes conectado contacta BENY Asesor "</h3>
-            <div class="divider"></div>
-
-    </div>
-
-    </header>
-    <!--fin del logo y menu-->
+    <h2>¡Para que siempre estes conectado!</h2><br <!--fin del logo y menu-->
     <!--seccion home-->
 
 
-    <section class="container" id="home">
-
-        <div class="divider"></div>
-        <section class="container" id="servicios">
-            <h2>HOGAR </h2>
-            <!--los servicios estarán divididos en tres columnas-->
-            <!--primer servicio-->
-
-            <!--fin del primer servicio-->
-
-            <!--segundo servicio-->
 
 
-            <img src="images/publi tigo.jpg" width="190px">
+    <h1>HOGAR </h1><br>
+
+
+    <div> <img src="images/publi tigooo.jpg" width="300px"><br>
+
+        <h3> Compactame por WhatsApp </h3>
+
+        <img src="images/LOGO2023 BENNY.jpg" width="300px"></div>
 
 
 
-            <!--fin segundo servicio-->
+    <h3> Compactame por mis redes </h3>
 
-            <!--tercer servicio-->
 
-            <h2>MOVILIDAD</h2>
-            <img src="images/LOGOBENYBN.jpg" width="190px">
+    <!--fin segundo servicio-->
+
+    <!--tercer servicio-->
 
 
 
@@ -100,14 +56,18 @@
 
 
 
+    <div class="social">
+        <a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/home?lang=es" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
 
-
-        </section>
-
-
-
-    </section>
     </div>
+
+
+
+
+
+
 
     <a href="https://api.whatsapp.com/send?phone=573012578319" class="btn-wsp" target="_blank">
         <i class="fa fa-whatsapp icono"></i>
