@@ -56,7 +56,7 @@ div {
 }
 
 .btn-wsp {
-    position: absolute;
+    position: relative;
     width: 60px;
     height: 60px;
     line-height: 63px;
