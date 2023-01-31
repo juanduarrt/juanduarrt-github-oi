@@ -1,4 +1,6 @@
 ckground: #739190;
+                        body {
+                        background: #0edfee;
                     }
                     /*secciones*/
                     
@@ -12,17 +14,6 @@ ckground: #739190;
                         text-align: center;
                         color: #20ba5a;
                         transition: all 300ms ease;
-                    }
-                    
-                    h4 {
-                        margin-left: 70px;
-                        padding: 12px;
-                    }
-                    
-                    div {
-                        padding-left: 50px;
-                        border-radius: 300px;
-                        border-color: black;
                     }
                     
                     .btn-wsp {
@@ -95,12 +86,6 @@ ckground: #739190;
                         padding: 200px 0 150px;
                     }
                     
-                    .divider {
-                        width: 250px;
-                        margin: 0 auto;
-                        border-top: 5px solid #fe4336;
-                    }
-                    
                     a {
                         color: var(--colorFondo);
                         display: inline-block;
@@ -122,11 +107,12 @@ ckground: #739190;
                         background-color: #fed136;
                     }
                     
-                    #home .social a {
-                        color: black;
+                    .social a {
+                        color: rgb(13, 13, 14);
                         display: inline-block;
-                        background-color: white;
+                        background-color: blue;
                         border-radius: 50%;
+                        border: solid 3px violet;
                         width: 50px;
                         height: 50px;
                         font-size: 24px;
@@ -140,7 +126,7 @@ ckground: #739190;
                     }
                     
                     img {
-                        background-color: #17918d;
+                        background-color: #3d4763;
                         border-radius: 33px;
                         border: solid 12px white;
                         padding-left: 2px;
@@ -148,7 +134,10 @@ ckground: #739190;
                         border-right-color: aqua;
                         padding-left: 15%;
                         padding-right: 15%;
-                        margin-left: 30px;
+                        margin-left: 33px;
+                        border-bottom: solid 12px rgb(20, 30, 49);
+                        border-left-color: rgb(59, 20, 85);
+                        border-top: solid 12px rgb(125, 84, 153);
                     }
                     
                     h1 {
@@ -160,26 +149,26 @@ ckground: #739190;
                         text-underline-position: above;
                         text-align: center;
                         color: rgb(14, 14, 250);
-                        border: solid 3px rgb(24, 24, 83);
+                        border: solid 5px rgb(24, 24, 83);
                     }
                     
                     h2 {
                         background-color: rgb(194, 159, 159);
-                        border-radius: 80%;
+                        border-radius: 90%;
                         margin-left: 20px;
                         padding-left: 2px;
                         text-align: center;
                         text-underline-position: above;
                         text-align: center;
-                        color: rgb(179, 42, 167);
+                        color: rgb(13, 5, 114);
                         border: solid 3px rgb(84, 84, 218);
-                        padding-top: 2px;
+                        border-top: solid 7px rgb(73, 21, 73);
                     }
                     
                     h3 {
                         background-color: rgb(166, 165, 245);
                         border-radius: 70%;
-                        margin-left: 20px;
+                        margin-left: 33px;
                         padding-left: 2px;
                         text-align: center;
                         text-underline-position: above;
@@ -190,24 +179,40 @@ ckground: #739190;
                         border-top: #090a09;
                         border: solid 7px rgb(42, 45, 175);
                         border-top: #090a09;
+                        border-top: solid 7px white;
                     }
                     
                     h4 {
-                        margin-left: 20px;
+                        margin-left: 33px;
                         padding-left: 20px;
                         background-color: rgb(21, 153, 120);
                         border-radius: 70%;
                         border: solid 8px blue;
+                        border-bottom: solid 8px black;
+                        text-align: center;
                     }
                     
                     h5 {
-                        margin: left 20px;
-                        ;
-                        background-color: rgb(52, 138, 172);
+                        margin: left 33px;
+                        background-color: rgb(214, 238, 227);
                         text-align: center;
-                        border-radius: 33px;
-                        border: solid 3px green;
+                        border-radius: 100%;
+                        border: solid 9px rgb(29, 59, 29);
                         padding-top: 20px;
                         padding-bottom: 33px;
-                        color: rgb(22, 11, 11)
+                        color: rgb(22, 11, 11);
+                    }
+                    
+                    .contactame {
+                        background-color: rgba(0, 0, 0, 0.3);
+                    }
+                    
+                    p {
+                        align-content: center;
+                        margin-left: 40%;
+                        background-color: aliceblue;
+                        text-align: center;
+                        border-radius: 50%;
+                        padding-top: 7px;
+                        padding-bottom: 7px;
                     }
